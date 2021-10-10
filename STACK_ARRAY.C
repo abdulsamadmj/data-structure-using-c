@@ -70,7 +70,7 @@ void display()
 	else
 	{
 		printf("\nStack: ");
-		for(i=0;i<=ptr;i++)
+		for(i=ptr;i>=0;i--)//to display in stack order.
 		{
 			printf("%d ",*(stack+i));
 		}
